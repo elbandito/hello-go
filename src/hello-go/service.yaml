@@ -9,7 +9,7 @@
          revisionTemplate:
            spec:
              container:
-               image: docker.io/aperolabs/helloworld-go:v1
+               image: docker.io/aperolabs/hello-go:v2
                env:
                  - name: TARGET
                    value: "Go Sample v1"
